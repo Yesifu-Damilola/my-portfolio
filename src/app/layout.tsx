@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Damilola Yesifu",
     description:
-      "Explore the portfolio of Damilola Yesifu, a passionate frontend developer specializing in React, Next.js, TypeScript, and Tailwind CSS.",
+      "Explore the portfolio of Damilola Yesifu, a passionate software developer specializing in React, Next.js, TypeScript, and Tailwind CSS.",
     url: "https://your-portfolio-domain.com",
     siteName: "Damilola Yesifu Portfolio",
     images: [
