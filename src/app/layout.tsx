@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Damilola Yesifu",
     description:
-      "A passionate software developer specializing in React, Next.js, TypeScript, and Tailwind CSS.",
+      "A passionate software developer specializing in React, Next.js, TypeScript, JavaScript and Tailwind CSS.",
     url: "https://my-portfolio-five-tau-60.vercel.app/",
     siteName: "Damilola Yesifu",
     images: [
