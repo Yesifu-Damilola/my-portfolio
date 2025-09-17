@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Damilola Yesifu" }],
   creator: "Damilola Yesifu",
   publisher: "Damilola Yesifu",
-  metadataBase: new URL("https://your-portfolio-domain.com"), // Replace with your domain
+  metadataBase: new URL("https://my-portfolio-five-tau-60.vercel.app/"), // Replace with your domain
   openGraph: {
     title: "Damilola Yesifu",
     description:
       "A passionate software developer specializing in React, Next.js, TypeScript, and Tailwind CSS.",
-    url: "https://your-portfolio-domain.com",
-    siteName: "Damilola Yesifu Portfolio",
+    url: "https://my-portfolio-five-tau-60.vercel.app/",
+    siteName: "Damilola Yesifu",
     images: [
       {
         url: "https://your-portfolio-domain.com/images/profile.jpg", // Replace with real image
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     images: ["https://your-portfolio-domain.com/images/profile.jpg"], // Replace with real image
   },
   alternates: {
-    canonical: "https://your-portfolio-domain.com",
+    canonical: "https://my-portfolio-five-tau-60.vercel.app/",
   },
 };
 
