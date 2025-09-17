@@ -16,7 +16,49 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Damilola Yesifu",
   description:
-    "Portfolio of a results-driven web developer with strong expertise in JavaScript, React, Next.js, TypeScript, and Tailwind CSS. Passionate about building intuitive, responsive, and future-ready applications that combine technology with real business value.",
+    "As a passionate software developer, I help businesses and individuals bring their digital ideas to life. With expertise in React, Next.js, TypeScript, and Tailwind CSS, I build fast, responsive, and modern websites that not only look great but also drive results. I combine creativity with technical expertise to deliver applications that meet both user needs and business goals.",
+  keywords: [
+    "Damilola Yesifu",
+    "Software Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Frontend Developer",
+    "TypeScript",
+    "JavaScript",
+    "Tailwind CSS",
+  ],
+  authors: [{ name: "Damilola Yesifu" }],
+  creator: "Damilola Yesifu",
+  publisher: "Damilola Yesifu",
+  metadataBase: new URL("https://your-portfolio-domain.com"), // Replace with your domain
+  openGraph: {
+    title: "Damilola Yesifu",
+    description:
+      "Explore the portfolio of Damilola Yesifu, a passionate frontend developer specializing in React, Next.js, TypeScript, and Tailwind CSS.",
+    url: "https://your-portfolio-domain.com",
+    siteName: "Damilola Yesifu Portfolio",
+    images: [
+      {
+        url: "https://your-portfolio-domain.com/images/profile.jpg", // Replace with real image
+        width: 1200,
+        height: 630,
+        alt: "Damilola Yesifu",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Damilola Yesifu",
+    description:
+      "Software developer specializing in React, Next.js, TypeScript, and Tailwind CSS. Building responsive and modern applications.",
+    creator: "@/YesifuM", // Replace with your Twitter username
+    images: ["https://your-portfolio-domain.com/images/profile.jpg"], // Replace with real image
+  },
+  alternates: {
+    canonical: "https://your-portfolio-domain.com",
+  },
 };
 
 export default function RootLayout({
