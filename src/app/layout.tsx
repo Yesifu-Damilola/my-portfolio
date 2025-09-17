@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Damilola Yesifu",
   description:
     "Portfolio of a results-driven web developer with strong expertise in JavaScript, React, Next.js, TypeScript, and Tailwind CSS. Passionate about building intuitive, responsive, and future-ready applications that combine technology with real business value.",
 };
