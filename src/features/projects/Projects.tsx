@@ -25,10 +25,11 @@ export const Projects = () => {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="w-full mt-2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start justify-center">
           {/* === Project 1 === */}
-          <div className="my-8">
+
+          <div className="my-5">
             <Fade direction="left">
               <Image
                 src="/images/mymtrackr.png"
@@ -53,7 +54,8 @@ export const Projects = () => {
           </div>
 
           {/* === Project 2 === */}
-          <div className="my-8">
+
+          <div className="my-5">
             <Fade direction="down">
               <Image
                 src="/images/iPhoneApp.png"
@@ -78,32 +80,8 @@ export const Projects = () => {
           </div>
 
           {/* === Project 3 === */}
-          <div className="my-8">
-            <Fade direction="up">
-              <Image
-                src="/images/staycation.png"
-                alt="StayCation"
-                width={500}
-                height={300}
-                className="rounded-lg border-2 border-[#9C83FF] w-full h-auto"
-              />
-              <div className="py-1">
-                <Link
-                  href="https://staycation-nu.vercel.app/"
-                  className="text-lg font-extrabold font-inter text-[#9C83FF]"
-                >
-                  StayCation App
-                </Link>
-              </div>
-              <p className="text-[#878787] font-medium text-lg md:text-xl font-inter text-left">
-                Developed a sophisticated and user-friendly UI website,
-                seamlessly integrating a blog with React.js.
-              </p>
-            </Fade>
-          </div>
 
-          {/* === Project 4 === */}
-          <div className="my-8">
+          <div className="my-5">
             <Fade direction="up">
               <Image
                 src="/images/cozzipay.png"
@@ -127,8 +105,35 @@ export const Projects = () => {
             </Fade>
           </div>
 
+          {/* === Project 4 === */}
+
+          <div className="mb-5">
+            <Fade direction="up">
+              <Image
+                src="/images/staycation.png"
+                alt="StayCation"
+                width={500}
+                height={300}
+                className="rounded-lg border-2 border-[#9C83FF] w-full h-auto"
+              />
+              <div className="py-1">
+                <Link
+                  href="https://staycation-nu.vercel.app/"
+                  className="text-lg font-extrabold font-inter text-[#9C83FF]"
+                >
+                  StayCation App
+                </Link>
+              </div>
+              <p className="text-[#878787] font-medium text-lg md:text-xl font-inter text-left">
+                Developed a sophisticated and user-friendly UI website,
+                seamlessly integrating a blog with React.js.
+              </p>
+            </Fade>
+          </div>
+
           {/* === Project 5 === */}
-          <div className="my-8">
+
+          <div className="mb-5">
             <Fade direction="down">
               <Image
                 src="/images/thriveagency.png"
@@ -151,8 +156,10 @@ export const Projects = () => {
               </p>
             </Fade>
           </div>
+
           {/* === Project 6 === */}
-          <div className="my-8">
+
+          <div className="mb-5">
             <Fade direction="right">
               <Image
                 src="/images/cryptolandingpage.png"
