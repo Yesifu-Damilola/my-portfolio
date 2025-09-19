@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Damilola Yesifu",
     images: [
       {
-        url: "https://my-portfolio-five-tau-60.vercel.app/ownerimg.png", // Replace with real image
+        url: "https://my-portfolio-five-tau-60.vercel.app/profile.png", // Replace with real image
         width: 1200,
         height: 630,
         alt: "Damilola Yesifu",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     description:
       "Software developer specializing in React, Next.js, TypeScript, and Tailwind CSS. Building responsive and modern applications.",
     creator: "@/YesifuM", // Replace with your Twitter username
-    images: ["https://my-portfolio-five-tau-60.vercel.app/ownerimg.png"], // Replace with real image
+    images: ["https://my-portfolio-five-tau-60.vercel.app/profile.png"], // Replace with real image
   },
   alternates: {
     canonical: "https://my-portfolio-five-tau-60.vercel.app/",
