@@ -51,7 +51,7 @@ export const Contact = () => {
       <div className="pb-5">
         <p className="text-lg text-[#E1E1E1] font-medium text-center mx-auto  font-inter">
           Loosely designed in Figma and coded in Visual Studio Code by yours
-          truly. Built with Reactjs, TypeScript and Tailwind CSS, deployed with
+          truly. Built with Next.js, TypeScript and Tailwind CSS, deployed with
           Vercel. All text is set in the Inter typeface.
         </p>
       </div>
