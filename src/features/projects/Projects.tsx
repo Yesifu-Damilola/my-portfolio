@@ -55,6 +55,31 @@ export const Projects = () => {
 
           {/* === Project 2 === */}
 
+          <div className="lg:my-5">
+            <Fade direction="up">
+              <Image
+                src="/images/planuxes.png"
+                alt="Planuxe"
+                width={500}
+                height={300}
+                className="rounded-lg border-2 border-[#9C83FF] w-full h-auto transition-opacity duration-500"
+              />
+              <div className="py-1">
+                <Link
+                  href="https://www.planuxe.com/"
+                  className="text-lg font-extrabold font-inter text-[#9C83FF]"
+                >
+                  planuxe.com
+                </Link>
+              </div>
+              <p className="text-[#878787] font-medium text-lg md:text-xl font-inter text-left">
+                Built a responsive, modern UI-focused website with a
+                comprehensive and scalable interface using Next.js.
+              </p>
+            </Fade>
+          </div>
+
+          {/* === Project 3 === */}
           <div className="my-5">
             <Fade direction="down">
               <Image
@@ -79,9 +104,9 @@ export const Projects = () => {
             </Fade>
           </div>
 
-          {/* === Project 3 === */}
+          {/* === Project 4 === */}
 
-          <div className="my-5">
+          <div className="mb-5">
             <Fade direction="up">
               <Image
                 src="/images/cozzipay.png"
@@ -105,7 +130,7 @@ export const Projects = () => {
             </Fade>
           </div>
 
-          {/* === Project 4 === */}
+          {/* === Project 5 === */}
 
           <div className="mb-5">
             <Fade direction="up">
@@ -131,7 +156,7 @@ export const Projects = () => {
             </Fade>
           </div>
 
-          {/* === Project 5 === */}
+          {/* === Project 6 === */}
 
           <div className="mb-5">
             <Fade direction="down">
@@ -157,9 +182,9 @@ export const Projects = () => {
             </Fade>
           </div>
 
-          {/* === Project 6 === */}
+          {/* === Project 7 === */}
 
-          <div className="mb-5">
+          {/* <div className="mb-5">
             <Fade direction="right">
               <Image
                 src="/images/cryptolandingpage.png"
@@ -181,7 +206,7 @@ export const Projects = () => {
                 integrating a blog using React.js.
               </p>
             </Fade>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
