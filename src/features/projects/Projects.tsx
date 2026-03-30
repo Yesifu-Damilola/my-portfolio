@@ -1,12 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
-// import mymtrackr from "/images/mymtrackr.png";
-// import iPhoneApp from "/images/iPhoneApp.png";
-// import staycation from "/images/staycation.png";
-// import thriveagency from "/images/thriveagency.png";
-// import cozzipay from "/images/cozzipay.png";
-// import cryptolandingpage from "/images/cryptolandingpage.png";
+
 
 export const Projects = () => {
   return (
@@ -27,8 +22,8 @@ export const Projects = () => {
 
       <div className="w-full mt-2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start justify-center">
-          {/* === Project 1 === */}
 
+          {/* === Project 1 === */}
           <div className="my-5">
             <Fade direction="left">
               <Image
@@ -54,7 +49,6 @@ export const Projects = () => {
           </div>
 
           {/* === Project 2 === */}
-
           <div className="lg:my-5">
             <Fade direction="up">
               <Image
@@ -105,7 +99,6 @@ export const Projects = () => {
           </div>
 
           {/* === Project 4 === */}
-
           <div className="mb-5">
             <Fade direction="up">
               <Image
@@ -131,7 +124,6 @@ export const Projects = () => {
           </div>
 
           {/* === Project 5 === */}
-
           <div className="mb-5">
             <Fade direction="up">
               <Image
