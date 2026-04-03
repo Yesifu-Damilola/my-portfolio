@@ -29,12 +29,11 @@ export const About = () => {
               : "opacity-0"
           }`}
         >
-          I&apos;m a developer with experienced in building websites for small
-          and medium enterprises. I specialize in creating responsive,
-          user-friendly, and efficient web applications with a keen eye for
-          detail and a focus on client satisfaction. Skills & Expertise
-          Languages & Frameworks: HTML, CSS, JavaScript, TypeScript, React,
-          Nextjs.
+          A highly skilled and detail-oriented Frontend Developer with strong
+          expertise in HTML, CSS, JavaScript, React, Next.js, TypeScript, and
+          Tailwind CSS. Proven ability to design and build responsive,
+          userfriendly interfaces while efficiently integrating RESTful APIs to
+          deliver seamless and engaging user experiences.
         </p>
         <p
           className={`text-2xl text-[#E1E1E1] font-thin font-inter text-left ${
@@ -43,10 +42,11 @@ export const About = () => {
               : "opacity-0"
           }`}
         >
-          Full Project Management handle projects from start to finish, ensuring
-          quality and timeliness at each stage. Clear Communication I believe in
-          the importance of regular updates and keeping in touch throughout the
-          development process, ensuring that your vision is fully realized.
+          Recognized for creative problem-solving and sharp critical-thinking
+          skills, alongside a solid command of Git for effective version control
+          and collaboration. Passionate about leveraging modern web technologies
+          to develop innovative, scalable, and high-performing solutions that
+          meet both user and business needs.
         </p>
       </div>
     </section>
